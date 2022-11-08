@@ -1,0 +1,7 @@
+api:
+  cscard:
+    apiUrl: https://app.clearscore.com/api/global/backend-tech-test/v1/cards
+    timeOut: 1
+  scoredcards:
+    apiUrl: https://app.clearscore.com/api/global/backend-tech-test/v2/creditcards
+    timeOut: 1

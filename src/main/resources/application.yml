@@ -1,0 +1,16 @@
+api:
+  cscard:
+    apiUrl:
+    timeOutMS: 1000
+  scoredcards:
+    apiUrl:
+    timeOutMS: 1000
+jackson:
+  serialization:
+    indent-output: false
+  deserialization:
+    fail-on-unknown-properties: true
+    fail-on-missing-creator-properties: true
+    fail-on-null-creator-properties: true
+server:
+  port: 8081
